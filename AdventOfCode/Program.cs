@@ -21,3 +21,6 @@ var dampenerSafeCode = AdventOfCode.Day2.SecondProblem.DampenerSafeCodes();
 Console.WriteLine($"There is {dampenerSafeCode} safe codes");
 
 Console.WriteLine("-------------------------------------------------------------------");
+
+var mullTotal = AdventOfCode.Day3.FirstProblem.CalculateMull();
+Console.WriteLine($"There is {mullTotal} safe codes");

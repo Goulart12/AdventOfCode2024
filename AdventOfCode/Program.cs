@@ -24,3 +24,6 @@ Console.WriteLine("-------------------------------------------------------------
 
 var mullTotal = AdventOfCode.Day3.FirstProblem.CalculateMull();
 Console.WriteLine($"The total multiplication is {mullTotal}");
+
+var mullTotalWithConditional = AdventOfCode.Day3.SecondProblem.CalculateMullWithPermission();
+Console.WriteLine($"The total multiplication is {mullTotalWithConditional}");
